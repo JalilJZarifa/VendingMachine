@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=snackBar
+comment0.text=\r\n\ snackBar\ class\r\n\r\n\ Jalil\ Zarifa\r\n\ 8/12/22\r\n
+comment1.params=NumOfStudents\ NumOfCrisps\ PennyCost
+comment1.target=snackBar(int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ snackBar\ class\ -\ there\ are\ three\ integer\ variables\ which\ indicate\ what\ is\ necessary\ for\ the\ class\ to\ initialise\ and\ run.\ For\ each\r\n\ student\ object\ created,\ a\ random\ flavour\ (from\ the\ initialised\ array)\ and\ a\ snack\ machine\ is\ assigned.\ This\ student\ is\ then\ added\ to\ the\ array.\ This\ is\ the\ same\ for\ each\r\n\ PackOfCrisps\ object.\r\n
+comment2.params=
+comment2.target=java.lang.String\ randomFlavour()
+comment2.text=\r\n\ This\ method\ returns\ a\ string\ which\ is\ the\ random\ flavour\ that\ is\ assigned\ to\ each\ crisp\ and\ student.\ First\ an\ index,\ i,\ is\ created.\ The\ random\r\n\ object\ that\ was\ initialised\ in\ the\ constructor\ is\ then\ used\ to\ get\ an\ index\ of\ the\ string\ array\ of\ flavours\ at\ random.\ this\ index\ is\ then\ used\ to\r\n\ return\ a\ string\ from\ the\ string\ array.\r\n
+comment3.params=
+comment3.target=void\ describe()
+comment3.text=\r\n\ This\ method\ describes\ the\ current\ state\ of\ the\ Snack\ bar\ and\ snack\ machine.\ It\ uses\ the\ students\ array\ to\ count\ the\ amount\ of\ students\ through\ the\r\n\ size()\ function.\ Then,\ the\ countPacks()\ function\ from\ the\ snackMachine\ class\ is\ used\ to\ count\ the\ packs\ of\ each\ flavour\ in\ the\ machine.\r\n
+comment4.params=nSteps
+comment4.target=void\ runSnackBar(int)
+comment4.text=\r\n\ The\ runSnackBar\ method\ requires\ an\ integer\ of\ the\ number\ of\ steps\ the\ snackBar\ will\ run\ for.\ This\ is\ also\ used\ to\ ensure\ that\ the\ for\ loop\ runs\ for\r\n\ the\ amount\ specified\ times.\ First\ the\ time\ step\ is\ printed\ by\ using\ i.\ Then,\ the\ describe\ function\ is\ called\ to\ display\ what\ is\ happening\ at\ the\ \r\n\ current\ time\ stamp.\ A\ new\ random\ object\ is\ created\ to\ randomly\ select\ a\ student\ from\ the\ student\ array.\ This\ student\ is\ given\ the\ value\ y\ which\ is\r\n\ then\ used\ to\ call\ the\ snackTime\ function.\r\n
+numComments=5

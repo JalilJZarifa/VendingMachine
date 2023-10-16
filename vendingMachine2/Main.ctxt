@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ Main\ class\r\n\r\n\ Jalil\ Zarifa\r\n\ 8/12/22\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ The\ main\ method\ that\ will\ be\ called\ in\ order\ to\ start\ the\ SnackBar\ operation.\ It\ currently\ contains\ the\ start()\ method\ which\ essentially\ starts\ the\r\n\ program.\r\n
+comment2.params=
+comment2.target=void\ menu()
+comment2.text=\r\n\ The\ menu\ is\ the\ array\ of\ options\ displayed\ to\ the\ user\ after\ certain\ tasks\ have\ been\ executed.\ It\ gives\ the\ user\ a\ couple\ options\ which\ leads\ them\r\n\ down\ different\ paths.\ Simply\ put,\ the\ user\ can\ either\ start\ the\ simulation\ again\ or\ exit\ the\ program.\r\n
+comment3.params=
+comment3.target=void\ start()
+comment3.text=\r\n\ The\ number\ of\ students,\ crisps\ and\ the\ cost\ of\ the\ snackBar\ object\ are\ left\ undeclared.\ This\ is\ to\ allow\ the\ user\ to\ make\ the\ decision.\ First\ a\r\n\ scanner\ is\ implemented\ where\ it\ will\ welcome\ the\ user\ and\ then\ prompt\ them\ to\ enter\ the\ number\ of\ the\ required\ inputs\ as\ stated\ previously.\ The\ \r\n\ prompt\ allows\ the\ next\ input\ of\ the\ user\ to\ be\ used\ in\ the\ scanner\ and\ ultimately\ added\ to\ the\ currently\ undeclared\ ints.Once\ all\ the\ inputs\ have\r\n\ been\ collected,\ they\ will\ then\ be\ added\ to\ the\ snackBar\ object\ and\ the\ user\ will\ be\ met\ with\ the\ two\ options\ of\ the\ snackBar\ methods,\ describe\ or\r\n\ run.\ After\ running\ the\ program\ the\ user\ will\ be\ met\ with\ the\ menu()\ function.\ Otherwise\ they\ will\ describe\ the\ current\ state\ of\ the\ snack\ bar\ where\r\n\ they\ will\ then\ be\ given\ the\ option\ to\ run\ it.\ After\ this,\ the\ menu()\ function\ is\ once\ again\ called.\r\n\ \r\n\ There\ are\ a\ couple\ issues\ with\ this\ method.\ Firstly,\ the\ int's\ are\ only\ local\ to\ this\ method\ and\ so\ if\ I\ wanted\ to\ break\ down\ this\ method\ and\ \r\n\ make\ it\ more\ efficient\ by\ providing\ more\ options,\ it\ would\ prove\ difficult\ as\ I\ would\ first\ need\ to\ allow\ the\ ints\ to\ be\ local\ to\ the\ class\ \r\n\ rather\ than\ just\ the\ start\ method.\r\n\ \r\n\ Additionally,\ there\ is\ a\ lack\ of\ validation.\ If\ the\ user\ were\ to\ input\ a\ char\ or\ a\ double\ when\ prompted,\ the\ program\ would\ simply\ crash\ and\ it\ \r\n\ would\ have\ to\ be\ run\ again.\ Although\ there\ is\ basic\ validation\ in\ the\ if\ statement\ (where\ if\ the\ user\ doesn't\ input\ 1\ or\ 2,\ they're\ met\ with\ the\ \r\n\ basic\ menu\ function()\ )\ This\ isn't\ enough\ to\ avoid\ the\ program\ essentially\ breaking.\r\n
+numComments=4

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=PackOfCrisps
+comment0.text=\r\n\ Pack\ of\ crisps\ class\r\n\r\n\ Jalil\ Zarifa\r\n\ 8/12/22\r\n
+comment1.params=InputFlavour
+comment1.target=PackOfCrisps(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ PackOfCrisps\ class.\ The\ string\ parameter\ is\ used\ to\ initialise\ the\ string,\ flavour.\r\n
+comment2.params=
+comment2.target=boolean\ isEmpty()
+comment2.text=\r\n\ The\ isEmpty\ method,\ which\ returns\ a\ boolean\ value(true\ or\ false)\ checks\ if\ the\ packet\ of\ crisps\ is\ empty\ by\ counting\ the\ number\ of\ crisps\ inside.\ \r\n\ This\ was\ initialised\ at\ 10.\ If\ the\ number\ of\ crisps\ is\ 0,\ a\ true\ statement\ is\ returned\ indiciating\ that\ the\ packet\ is\ empty.\ Else\ a\ false\ value\ is\r\n\ returned\ indicating\ that\ the\ number\ of\ crisps\ is\ above\ 0,\ so\ not\ empty.\r\n
+comment3.params=
+comment3.target=boolean\ isClosed()
+comment3.text=\r\n\ The\ isClosed\ method,\ similarly\ to\ the\ isEmpty\ method,\ returns\ a\ boolean\ value.\ This,\ unlike\ the\ isEmpty\ method,\ checks\ whether\ the\ packet\ of\ crisps\r\n\ has\ been\ opened\ yet.\ If\ it\ is,\ a\ false\ value\ is\ returned\ indicating\ that\ it\ is\ not\ closed,\ else\ true\ is\ returned\ indiciating\ that\ it\ is\ closed.\r\n
+comment4.params=
+comment4.target=void\ open()
+comment4.text=\r\n\ This\ method\ closes\ the\ packet\ of\ crisps\ by\ equating\ it\ is\ false.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getFlavour()
+comment5.text=\r\n\ This\ method\ returns\ a\ string\ which\ is\ the\ flavour\ of\ crisp\r\n
+comment6.params=
+comment6.target=void\ eatCrisp()
+comment6.text=\r\n\ This\ method\ eats\ the\ crisps.\ If\ the\ packet\ is\ not\ false,\ meaning\ open,\ and\ the\ packet\ is\ not\ empty,\ a\ crisp\ will\ be\ deducted\ from\ the\ packet,\r\n\ simulating\ someone\ eating\ a\ crisp\ one\ by\ one.\ Else,\ a\ message\ indicating\ that\ the\ packet\ is\ yet\ to\ be\ opened\ will\ be\ displayed.\r\n
+numComments=7
